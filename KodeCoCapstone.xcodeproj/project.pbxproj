@@ -60,9 +60,8 @@
 		4C163B8E2C23D3AD0013FB33 /* KodeCoCapstone */ = {
 			isa = PBXGroup;
 			children = (
-				4C163B932C23D3AD0013FB33 /* KodeCoCapstoneApp.swift */,
-				4C163B952C23D3AD0013FB33 /* ContentView.swift */,
-				4C163B972C23D3AD0013FB33 /* ImmersiveView.swift */,
+				4C163BAC2C23D5DD0013FB33 /* View */,
+				4C163BAB2C23D5D60013FB33 /* Model */,
 				4C163B992C23D3AD0013FB33 /* ImageBasedLighting.skybox */,
 				4C163B9B2C23D3AE0013FB33 /* Assets.xcassets */,
 				4C163BA02C23D3AE0013FB33 /* Info.plist */,
@@ -85,6 +84,23 @@
 				4C163B9E2C23D3AE0013FB33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C163BAB2C23D5D60013FB33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C163B932C23D3AD0013FB33 /* KodeCoCapstoneApp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C163BAC2C23D5DD0013FB33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C163B952C23D3AD0013FB33 /* ContentView.swift */,
+				4C163B972C23D3AD0013FB33 /* ImmersiveView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
